@@ -1,0 +1,12 @@
+sti  3, 2
+sti  1, 1
+ld    eax, 2
+ld    ebx, 1  
+sub
+st    acc, 0
+ld    eax, 0
+add
+st    acc, 3
+ld    ebx, 3
+nop
+halt

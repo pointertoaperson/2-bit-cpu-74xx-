@@ -1,0 +1,21 @@
+sti 1, 0        
+sti 2, 1
+sti 3, 2
+ld  eax, 0 
+ld  ebx, 2
+add
+st  acc, 3 
+ld  eax, 2
+ld  ebx, 0
+sub
+st  acc, 0 
+ld  eax, 3
+ld  ebx, 0
+or
+st  acc, 2
+ld  eax, 2
+ld  ebx, 1 
+and
+st  acc, 3
+ld eax, 3
+halt

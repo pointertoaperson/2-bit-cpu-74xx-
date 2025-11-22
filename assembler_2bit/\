@@ -1,0 +1,9 @@
+sti  3, 2
+sti  1, 1
+ld    eax, 3
+ld    ebx, 1  
+sub
+st    acc, 0
+ld    eax, 0
+nop
+halt
